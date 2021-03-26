@@ -24,3 +24,9 @@ $ bash script.sh TOKEN user/repository (page) (page_size)
 GitHub token can be generated here: https://github.com/settings/tokens/new
 
 All blocked logins will get appended to `BLOCKED.txt` where the script is ran.
+
+## api cache
+from https://docs.github.com/en/rest/reference/repos#list-repository-contributors
+```
+This endpoint may return information that is a few hours old because the GitHub REST API v3 caches contributor data to improve performance.
+```
