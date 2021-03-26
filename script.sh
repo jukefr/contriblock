@@ -16,7 +16,7 @@
 
 TOKEN="$1" # https://github.com/settings/tokens/new
 REPO="$2"
-PAGE="${3:-1}" # "basic resume"
+PAGE="${3:-0}" # "basic resume"
 COUNT="${4:-10}"
 
 while true; do
